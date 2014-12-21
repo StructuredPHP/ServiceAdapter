@@ -2,7 +2,7 @@
 namespace StructuredPHP\ServiceAdapter\Authentication;
 
 use StructuredPHP\Common\Type\Object;
-use StructuredPHP\ServiceConsumer\Registry;
+use StructuredPHP\ServiceAdapter\Registry;
 use StructuredPHP\ServiceAdapter\Annotations\ConfigParam;
 
 /**

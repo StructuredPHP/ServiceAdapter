@@ -5,7 +5,7 @@ use Doctrine\Common\Annotations\Annotation;
 
 /**
  * 
- * Determine if a class is annotation
+ * ConfigParam
  * 
  * @author haihao
  * 
