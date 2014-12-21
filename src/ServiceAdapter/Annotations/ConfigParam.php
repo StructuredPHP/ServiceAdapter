@@ -1,5 +1,5 @@
 <?php
-namespace StructuredPHP\ServiceConsumer\Annotations;
+namespace StructuredPHP\ServiceAdapter\Annotations;
 
 use Doctrine\Common\Annotations\Annotation;
 

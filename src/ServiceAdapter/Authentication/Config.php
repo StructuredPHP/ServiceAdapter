@@ -1,9 +1,9 @@
 <?php
-namespace StructuredPHP\ServiceConsumer\Authentication;
+namespace StructuredPHP\ServiceAdapter\Authentication;
 
 use StructuredPHP\Common\Type\Object;
 use StructuredPHP\ServiceConsumer\Registry;
-use StructuredPHP\ServiceConsumer\Annotations\ConfigParam;
+use StructuredPHP\ServiceAdapter\Annotations\ConfigParam;
 
 /**
  * Auth Config

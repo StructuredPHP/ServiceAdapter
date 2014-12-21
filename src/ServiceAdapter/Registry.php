@@ -1,10 +1,9 @@
 <?php
-namespace StructuredPHP\ServiceConsumer;
+namespace StructuredPHP\ServiceAdapter;
 
 use StructuredPHP\Common\Type\Object;
 use Doctrine\Common\Annotations\AnnotationRegistry;
 use Composer\Autoload\ClassLoader;
-use StructuredPHP\ServiceConsumer\Service\Interfaces\IService;
 use Doctrine\Common\Annotations\AnnotationReader;
 
 /**
@@ -35,18 +34,6 @@ class Registry extends Object {
 	public static function getAnnotationReader() {
 		return new AnnotationReader();
 	}
-	
-	
-	/**
-	 * Get Service
-	 * 
-	 * @param IService $service
-	 * @return IService
-	 */
-	public static function getService(IService $service) {
-		return $service;
-	}
-	
-	
+
 	
 }

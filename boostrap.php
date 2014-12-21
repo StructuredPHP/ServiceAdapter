@@ -2,4 +2,4 @@
 
 $loader = require_once 'vendor/autoload.php';
 
-StructuredPHP\ServiceConsumer\Registry::registerLoader($loader);
+StructuredPHP\ServiceAdapter\Registry::registerLoader($loader);

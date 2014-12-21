@@ -1,6 +1,6 @@
 {
-  "name" : "structured-php/service-consumer",
-  "description" : "Aspect oriented service framework to consume webservice",
+  "name" : "structured-php/service-adapter",
+  "description" : "aspect oriented service framework to service oriented architecture",
   "require" : {
     "php" : ">=5.3.0",
     "structured-php/foundation" : "dev-master"
@@ -10,7 +10,8 @@
   },
   "authors" : [ {
     "name" : "Haihao Yan",
-    "email" : "haihao@tundra.com.au"
+    "email" : "hyan36@gmail.com",
+    "role" : "Developer"
   } ],
   "minimum-stability" : "dev",
   "autoload" : {

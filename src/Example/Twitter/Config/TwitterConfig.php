@@ -1,8 +1,8 @@
 <?php
 namespace StructuredPHP\Example\Twitter\Config;
 
-use StructuredPHP\ServiceConsumer\Authentication\Config;
-use StructuredPHP\ServiceConsumer\Annotations\ConfigParam;
+use StructuredPHP\ServiceAdapter\Authentication\Config;
+use StructuredPHP\ServiceAdapter\Annotations\ConfigParam;
 
 /**
  * 
